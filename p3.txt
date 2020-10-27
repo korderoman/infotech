@@ -1,0 +1,13 @@
+VENTAJAS
+
+La principal ventaja es la búsqueda veloz dentro de la tabla ya que
+ya no se recorre toda la tabla
+Los índices ayudan a no sobre cargar el CPU, memoria y demás, esto cobra
+especial importancia en la nube y forma parte de cualquier requisito de optimización
+
+DESVENTAJAS
+
+Es recomendable solo su uso cuando  las operaciones por lo general son de tipo select
+Su ventaja se vuelve engorrosa cuando se usa en tablas pequeñas.
+Si se realiza en una columna que no brinda suficiente información y se generan en múltiples 
+columnas se pierde rapidez
