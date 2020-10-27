@@ -1,3 +1,6 @@
+# BRANCH
+-   Revisar el branch master
+
 # PREGUNTAS
 -   Pregunta 1: Generar un codigo en python que sume 10 numeros aleatorios de la siguiente forma: los 5 mas bajos y los 5 mas altos
 
