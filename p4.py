@@ -10,7 +10,7 @@ def index():
     query=request.args.__len__()
     pares=[]
     if query== 0:
-        return "Debe agregar una ruta como: ?D:/programacion/proyectos/xertica/banbif/chatbot_banbif"
+        return "Debe agregar una ruta como: ?ruta=D:/programacion/proyectos/xertica/banbif/chatbot_banbif"
     else:
         ruta:str=request.args.get('ruta')
        
